@@ -91,10 +91,16 @@ a {
 /* -------------------------------------------
   プロフィール
   -------------------------------------------*/
+.section-box{
+  background-color:burlywood;
+  padding: 15px;
+}
+
 .profile{
   display: flex;
   align-items: center;
   gap: 40px;
+  
 }
 
 .profile-img{
@@ -102,6 +108,7 @@ a {
   height: 200px;
   width: 200px;
   object-fit: cover;
+  padding: 10px;
 }
 
 .profile-info{
